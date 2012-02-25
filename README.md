@@ -20,8 +20,11 @@ If you want to customize the style of the table either edit gigs_style.css or bu
 3. Copy all the files in the /gigs_parser/ folder that you have unzipped into a /gigs_parser folder on your server. For example: http://www.yourwebsite.com/gigs_parser/
 
 4. On the page(s) in your site that you would like to display a table from a GIGS Feed place the following code in the appropriate places:
-    include("./gigs_parser/gigs_parser.php");
-    $gigs = new GIGSParser("http://www.gigsfeedlocation.com/gigsfeed.gigs");
-    $gigs->displayGIGS();
+
+    `include("./gigs_parser/gigs_parser.php");`
+
+    `$gigs = new GIGSParser("http://www.gigsfeedlocation.com/gigsfeed.gigs");`
+    
+    `$gigs->displayGIGS();`
     
 See /example/gigs_example.php for a more detailed example of how to use the GIGS Parser class.
