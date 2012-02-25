@@ -1,0 +1,125 @@
+/*******************
+gigs_style.css
+
+Style Sheet for GIGS Parser functions
+
+********************/
+
+#gigs_cell {
+	font-family: "Lucida Grande", Arial, Helvetica, Verdana, sans-serif;
+    line-height: 1.5;
+	font-size: 12px;
+	min-width: 100px;
+}
+
+#gigs_cell a {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+#gigs_cell a:link {
+	color: #005fd9;
+	text-decoration: none;
+}
+
+#gigs_cell a:active {
+	color: #005fd9;
+	text-decoration: none;
+}
+
+#gigs_cell a:visited{
+	color: #005fd9;
+	text-decoration: none;
+}
+
+#gigs_cell a:hover {
+	color: #ffffff;
+	background-color: #005fd9;
+	text-decoration: none;
+}
+
+#gigs_cell a.image:hover {
+	background: transparent;
+	border: 0px;
+}
+
+img {
+	border: none;
+}
+
+#gigs_link {
+	margin-top: 5px;
+	text-align: left;
+}
+
+/******************
+Style for feed atributes
+*******************/
+
+.gigs_title {
+	
+}
+
+.gigs_artist {
+
+}
+
+.gigs_artistlink {
+
+}
+
+.gigs_description {
+
+}
+
+/*****************
+Style for shows display table
+******************/
+
+table.gigs_table {
+	color: #ffffff;	
+	border-style: none;
+	border: 0px;
+	border-collapse: collapse;
+	background-color: #1b1b1b;
+
+}
+
+/*****************
+Style for column titles
+******************/
+
+.gigs_coltitlerow {
+	background-color: #005fd9;
+	border-bottom: 5px solid #1b1b1b;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.gigs_coltitle {
+	padding: 5px;
+}
+
+/*****************
+Style for show rows
+******************/
+
+.gigs_showrow {
+	background-color: #222222;
+	border-bottom: 5px solid #1b1b1b;
+	font-size: 12px;
+}
+
+.gigs_evenrow {
+
+}
+
+.gigs_oddrow {
+
+}
+
+.gig_showcell {
+	padding: .3em 1em;
+	text-align: center;
+}
